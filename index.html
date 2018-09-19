@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>surveyform</title>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="myicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+
+<div id="svform"><h1>Hello and welcome to the Family Life Foundation online </h1>
+    <h2>Please fill out the survey form below and complete by clicking the submit button!</h2>
+   <div class="container">
+  <form>
+
+  <fieldset>
+     <legend>PERSONAL INFORMATION</legend>
+      <div class="div-s">
+      <label for="fullname">FULLNAME</label>
+      </div>
+      <div name="fullname"class="div-l"><input type="text"></div>
+
+      <div class="div-s cfloat">
+      <label for="gender">GENDER</label>
+      </div>
+      <div class="div-l"><input type="radio" value="male" name="gender"><label>MALE</label>
+      <input type="radio" value="female" name="gender"><label>FEMALE</label></div>
+      
+      <div class="div-s cfloat">
+      <label for="number">FAMILY SIZE</label>
+      </div>
+      <div class="div-l"><input type="number" value="family size" placeholder="number">
+      </div>
+      <div class="div-s cfloat">
+      <label for="parent">MARITAL STATUS</label>
+          </div>
+      <div class="div-l">
+        <input type="radio" value="single parent" name="Parent"><label>SINGLE</label>
+        <input type="radio" value="single parent" name="Parent"><label>MARRIED</label>  
+      </div>
+      
+      <div class="div-s cfloat">
+      <label>HOME TYPE</label>
+      </div>
+      <div class="div-l">
+          <select name="home">
+              <option>select....</option>
+          <option value="apartment">1 bedroom apartment</option>
+              <option value="2 bedroom apartment">2 bedroom apartment</option>
+              <option value="mansion">Mansion</option>
+              <option value="other">Other</option>
+          </select>  
+      </div>
+  </fieldset>  
+      
+      
+<fieldset>
+     <legend>MEDICAL INFORMATION</legend>
+      <div class="div-s cfloat">
+      <label>STERILIZED?</label>
+      </div>
+      <div class="div-l">
+        <input type="radio" value="yes" name="steril"><label>YES</label>
+        <input type="radio" value="no" name="steril"><label>NO</label>  
+      </div>
+    
+      <div class="div-s cfloat">
+      <label>ALERGIES</label>
+      </div>
+      <div class="div-l">
+        <input type="radio" value="yes" name="alergy"><label>YES</label>
+        <input type="radio" value="no" name="alergy"><label>NO</label>  
+      </div>
+      
+    
+    <div class="div-s cfloat">
+      <label for="smoke">DO YOU SMOKE?</label>
+      </div>
+      <div class="div-l">
+        <input type="radio" value="yes" name="smoke"><label>YES</label>
+        <input type="radio" value="no" name="smoke"><label>NO</label>  
+      </div>
+    
+      <div class="div-s cfloat">
+      <label>HOSPITAL VISITS</label>
+      </div>
+      <div class="div-l"><input type="number" value="family size" placeholder="No. per month">
+    </div>
+    <p>What kind of medical treatment will you prefer?</p>
+      <div class="div-l">
+          <select name="home">
+              <option>select....</option>
+          <option value="apartment">Orthodox method</option>
+              <option value="2 bedroom apartment">Herbal/Natural </option>
+              <option value="mansion">Both</option>
+          </select>  
+      </div>
+  </fieldset>    
+    
+    <div class="">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+    </div>
+    
+</body>
+</html>

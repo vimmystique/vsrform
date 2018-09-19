@@ -1,0 +1,139 @@
+/*STANDARD STYLES*/
+body{
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+
+
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    background-color:green;
+    padding: 20px;
+}
+*/
+
+/*
+.col-s {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-l {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+ Clear floats afterwards
+.cfloat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+body{
+    
+}
+.container{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin:auto;
+    background-color:darkgreen;
+    padding: 5px;
+    color: white !important;
+}
+h1,h2{
+    text-align:center;
+    color: darkgreen;
+    padding: 10px;
+}
+.div-s{
+    float: left;
+    width: 35%;
+     margin: 5px;
+}
+.div-l{
+    float: left;
+    width:60%;
+     margin: 5px;
+}
+fieldset{
+    display: block;
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+legend{
+    padding: 5px;
+    background-color: white;
+    color: green;
+    margin: 5px;
+    border-radius: 5px;
+}
+input[type=text],[type=number],select{
+   width: 100%;
+   padding: 8px;
+    border-radius: 5px
+   
+}
+input[type=submit]{
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    font-size: 20px;
+    
+}]
+.cfloat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+label{
+    padding: 5px;
+    display: inline-block;
+}
+
+/*FOR SMALL SCREEN DEVICES */
+@media screen and (max-width: 750px) {
+  fieldset{
+    display: block;
+    border: 2px solid white;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    .div-s, .div-l, input[type=text],input[type=number]{
+        width: 100%;
+    }
+}

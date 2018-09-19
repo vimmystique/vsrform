@@ -5,6 +5,7 @@ body{
 
 * {
     box-sizing: border-box;
+    color: black;
 }
 
 .container{
@@ -26,6 +27,7 @@ h1,h2{
     text-align:center;
     color: darkorange;
     padding: 10px;
+    text-shadow: 1px 1px black;
 }
 .div-s{
     float: left;
@@ -71,7 +73,7 @@ input[type=submit]{
     font-size: 20px;
     
 }
-.cfloat:after {
+.cfloat {
     content: "";
     display: table;
     clear: both;
@@ -82,11 +84,13 @@ label{
     color: black;
 }
 P{
+    padding: 5px;
+    display: inline-block;
     color: black;
-    font-size: 20px
+    font-size: 16px
 }
 /*FOR SMALL SCREEN DEVICES */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
   fieldset{
     display: block;
     border: 2px solid white;
@@ -95,6 +99,7 @@ P{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+    
     .div-s, .div-l, input[type=text],input[type=number]{
         width: 100%;
     }

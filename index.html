@@ -10,7 +10,7 @@
 <body>
 
 <div id="svform">
-    <img src="img/vim.png" alt="logo"><h1>Hello and welcome to the Family Life Foundation online </h1>
+    <img src="img/vim.png" alt="vimlogo"><h1>Hello and welcome to the Family Life Foundation online </h1>
     <h2>Please fill out the survey form below and complete by clicking the submit button!</h2>
    <div class="container">
   <form>
@@ -31,21 +31,21 @@
       <div class="div-s cfloat">
       <label for="familySize">FAMILY SIZE</label>
       </div>
-      <div class="div-l"><input type="number" id=familySize"" placeholder="number">
+      <div class="div-l"><input type="number" id="familySize" placeholder="number">
       </div>
       <div class="div-s cfloat">
       <p>MARITAL STATUS</p>
           </div>
       <div class="div-l">
-        <input type="radio" value="single parent" name="marital"><p>SINGLE</p>
-        <input type="radio" value="married" name="marital">MARRIED  
+        <input type="radio" value="single parent" name="marital" id="single"><label for="single">SINGLE</label>
+        <input type="radio" value="married" name="marital" id="married"><label for="married">MARRIED</label> 
       </div>
       
       <div class="div-s cfloat">
-      <label>HOME TYPE</label>
+      <label id="hometype">HOME TYPE</label>
       </div>
       <div class="div-l">
-          <select name="home">
+          <select id="hometype" name="home">
               <option>select....</option>
           <option value="1 bedroom apartment">1 bedroom apartment</option>
               <option value="2 bedroom apartment">2 bedroom apartment</option>
@@ -62,16 +62,16 @@
       <p>STERILIZED?</p>
       </div>
       <div class="div-l">
-        <input type="radio" value="yes" name="steril"><p>YES</p>
-        <input type="radio" value="no" name="steril"><p>NO</p> 
+        <input type="radio" value="yes" name="steril"><label>YES</label>
+        <input type="radio" value="no" name="steril"><label>NO</label> 
       </div>
     
       <div class="div-s cfloat">
       <p>ALERGIES</p>
       </div>
       <div class="div-l">
-          <input type="radio" value="yes" name="alergy"><p>YES</p>
-          <input type="radio" value="no" name="alergy"><p>NO</p> 
+          <input type="radio" value="yes" name="alergy"><label>YES</label>
+          <input type="radio" value="no" name="alergy"><label>NO</label> 
       </div>
       
     
@@ -79,18 +79,18 @@
       <p>DO YOU SMOKE?</p>
       </div>
       <div class="div-l">
-        <input type="radio" value="yes" name="smoke"><p>YES</p>
-        <input type="radio" value="no" name="smoke"><p>NO</p> 
+        <input type="radio" value="yes" name="smoke"><label>YES</label>
+        <input type="radio" value="no" name="smoke"><label>NO</label> 
       </div>
     
       <div class="div-s cfloat">
       <label for="hospital visits">HOSPITAL VISITS</label>
       </div>
-      <div class="div-l"><input type="number" value="family size" placeholder="No. per month" name="hospital visits">
+      <div class="div-l" ><input type="number" value="family size" placeholder="No. per month" name="hospital visits" id="hospital visits">
     </div>
-    <p class=" cfloat">WHAT KIND OF MEDICAL TREATMENT DO YOU PREFER?</p>
+    <label id="medical choice" class=" cfloat">WHAT KIND OF MEDICAL TREATMENT DO YOU PREFER?</label>
       <div class="div-l">
-          <select name="medical treatment">
+          <select name="medical treatment" id="medical choice">
               <option>select....</option>
           <option value="orthodox">Orthodox method</option>
               <option value="Herbal/natural">Herbal/Natural </option>

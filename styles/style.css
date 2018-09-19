@@ -1,4 +1,4 @@
-/*STANDARD STYLES*/
+
 body{
     margin: 0px;
 }
@@ -7,9 +7,6 @@ body{
     box-sizing: border-box;
 }
 
-body{
-    
-}
 .container{
     display: block;
     width: 100%;
@@ -73,7 +70,7 @@ input[type=submit]{
     color: black;
     font-size: 20px;
     
-}]
+}
 .cfloat:after {
     content: "";
     display: table;
